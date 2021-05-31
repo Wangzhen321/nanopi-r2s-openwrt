@@ -19,7 +19,7 @@ diff --git a/include/target.mk b/include/target.mk
      CPU_CFLAGS_cortex-a53 = -mcpu=cortex-a53
    endif
    ifeq ($(ARCH),arc)
-diff --git a/feeds/luci/applications/luci-app-turboacc/root/etc/config/turboacc b/package/ctcgfw/luci-app-turboacc/root/etc/config/turboacc
+diff --git a/feeds/luci/applications/luci-app-turboacc/root/etc/config/turboacc b/feeds/luci/applications/luci-app-turboacc/root/etc/config/turboacc
 --- a/feeds/luci/applications/luci-app-turboacc/root/etc/config/turboacc
 +++ b/feeds/luci/applications/luci-app-turboacc/root/etc/config/turboacc
 @@ -1,9 +1,9 @@
@@ -35,7 +35,7 @@ diff --git a/feeds/luci/applications/luci-app-turboacc/root/etc/config/turboacc 
  	option sfe_ipv6 '0'
  	option bbr_cca '1'
  	option fullcone_nat '1'
-diff --git a/feeds/luci/applications/luci-app-vssr/root/usr/share/vssr/genconfig_trojan.lua b/package/ctcgfw/luci-app-vssr/root/usr/share/vssr/genconfig_trojan.lua
+diff --git a/feeds/luci/applications/luci-app-vssr/root/usr/share/vssr/genconfig_trojan.lua b/feeds/luci/applications/luci-app-vssr/root/usr/share/vssr/genconfig_trojan.lua
 --- a/feeds/luci/applications/luci-app-vssr/root/usr/share/vssr/genconfig_trojan.lua
 +++ b/feeds/luci/applications/luci-app-vssr/root/usr/share/vssr/genconfig_trojan.lua
 @@ -21,8 +21,8 @@ local trojan = {
@@ -49,7 +49,7 @@ diff --git a/feeds/luci/applications/luci-app-vssr/root/usr/share/vssr/genconfig
          sni = server.peer,
          alpn = {'h2', 'http/1.1'},
          curve = '',
-diff --git a/feeds/luci/applications/luci-app-cpufreq/root/etc/config/cpufreq b/package/lean/luci-app-cpufreq/root/etc/config/cpufreq
+diff --git a/feeds/luci/applications/luci-app-cpufreq/root/etc/config/cpufreq b/feeds/luci/applications/luci-app-cpufreq/root/etc/config/cpufreq
 --- a/feeds/luci/applications/luci-app-cpufreq/root/etc/config/cpufreq
 +++ b/feeds/luci/applications/luci-app-cpufreq/root/etc/config/cpufreq
 @@ -1,3 +1,6 @@
