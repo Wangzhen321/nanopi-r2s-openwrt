@@ -20,8 +20,8 @@ diff --git a/include/target.mk b/include/target.mk
    endif
    ifeq ($(ARCH),arc)
 diff --git a/feeds/luci/applications/luci-app-turboacc/root/etc/config/turboacc b/feeds/luci/applications/luci-app-turboacc/root/etc/config/turboacc
---- a/package/ctcgfw/luci-app-turboacc/root/etc/config/turboacc
-+++ b/package/ctcgfw/luci-app-turboacc/root/etc/config/turboacc
+--- a/feeds/luci/applications/luci-app-turboacc/root/etc/config/turboacc
++++ b/feeds/luci/applications/luci-app-turboacc/root/etc/config/turboacc
 @@ -1,9 +1,9 @@
  
  config turboacc 'config'
